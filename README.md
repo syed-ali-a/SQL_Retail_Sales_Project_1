@@ -179,7 +179,7 @@ CASE
 END AS  shift
 FROM retail_sales
 GROUP BY shift
-ORDER BY COUNT(*) DESC
+ORDER BY COUNT(*) DESC;
 ---
 
 ## Findings
